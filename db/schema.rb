@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "costume_stores", force: :cascade do |t|
@@ -41,5 +42,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "closing_date"
     t.text "description"
   end
+=======
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> 0247b621b9de4f6ff5070898a678d123cc6b27cb
 
 end
